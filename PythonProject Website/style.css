@@ -1,0 +1,49 @@
+body {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.TitleBar {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.TitleBar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.TitleBar img {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.TitleBar h1 {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.TitleBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.TitleBar a.active {
+    background-color: #00ffff;
+    color: rgb(17, 0, 255);
+}
