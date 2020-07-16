@@ -27,6 +27,8 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
+    width: 55px;
+    height: 55px;
 }
 
 .TitleBar h1 {
