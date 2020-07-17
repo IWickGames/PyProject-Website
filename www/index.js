@@ -4,10 +4,10 @@ var w = c.width = window.innerWidth,
     ctx = c.getContext( '2d' ),
     
     minDist = 10,
-    maxDist = 30,
+    maxDist = 50,
     initialWidth = 10,
     maxLines = 100,
-    initialLines = 4,
+    initialLines = 50,
     speed = 5,
     
     lines = [],
